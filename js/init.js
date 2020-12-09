@@ -4,6 +4,7 @@ if(navigator.serviceWorker){//esta disponible trabjar con service worked en este
         navigator.serviceWorker.register("/sw.js");
     }  else{
         //este servidor es un servidor web
+        //este servidor es un servidor web
         navigator.serviceWorker.register("/breakingsbad/sw.js");
     }
     

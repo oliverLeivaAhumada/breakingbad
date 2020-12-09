@@ -14,17 +14,17 @@
 //los recursos
 
 const APP_SHELL = [
-    "/",
-    "/index.html",
-    "/vendor/fontawesome-free-5.15.1-web/css/all.min.css",
-    "/css/style.css",
+    // "/",
+    "index.html",
+    "vendor/fontawesome-free-5.15.1-web/css/all.min.css",
+    "css/style.css",
     "https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css",
-    "/img/logo.png",
-    "/ubicaciones.html",
+    "img/logo.png",
+    "ubicaciones.html",
     "https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js",
     "https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js",
     "https://cdn.jsdelivr.net/npm/sweetalert2@10",
-    "/js/init.js"
+    "js/init.js"
 ];
 // DEL CONTENIDO DEL APP SHELL, QUE COSAS JAMAS DEBERIA CAMBIAR
 const APP_SHELL_INMUTABLE =[
