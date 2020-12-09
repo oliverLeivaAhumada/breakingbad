@@ -1,6 +1,12 @@
 //registro del service worked
-if(navigator.serviceWorker){//esta disponible trabjar con service worked en este navegador ?    
-    navigator.serviceWorker.register("/sw.js");
+if(navigator.serviceWorker){//esta disponible trabjar con service worked en este navegador ?  
+    if(window.location.href.includes("localhost")){
+        navigator.serviceWorker.register("/sw.js");
+    }  else{
+        //este servidor es un servidor web
+        navigator.serviceWorker.register("/breakingsbad/sw.js");
+    }
+    
 
 }
 
